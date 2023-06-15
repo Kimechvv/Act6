@@ -1,0 +1,171 @@
+/* Pon aquí el código CSS que necesites para aplicar los estilos necesarios */
+#caja1{
+    position: relative;
+    top: 95px;
+    left: 300px;
+}
+
+#caja2{
+    position: relative;
+
+}
+#caja3{
+    position: relative;
+    left: 300px;
+}
+#parrafo{
+    position: relative;
+    bottom: 20px;
+}
+
+.act2{
+    position: relative;
+}
+
+#caja1-act2{
+    position: absolute;
+    right: 0px;
+    
+}
+
+#caja3-act2{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+#parrafo1{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+}
+
+#parrafo2{
+    position: absolute;
+    right:20px ;
+    bottom: 25px;
+}
+
+.act3-contenedor{
+    position: relative;
+}
+
+#act3-izquierda{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#act3-derecha{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+#act3-abajoizquierda{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#act3-abajoderecha{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#act3-centrado{
+    position: absolute;
+    bottom: 45%;
+    right: 45%;
+
+    
+}
+
+#Menúe{
+    float:left ;
+    height: 130px;
+    border: 2px solid blue;
+    width: 30%;
+
+}
+#Cabecera{
+    height: 30px;
+    border: 2px solid blue;
+}
+#Cuerpo{
+    height: 130px;
+    border: 2px solid blue;
+}
+#Pie{
+    height: 30px;
+    border: 2px solid blue;
+}
+
+#imagen{
+    float: left;
+    border: 2px solid red;
+    margin: 10px;
+
+}
+
+#Tx{
+    clear: both;
+}
+#gato{
+    border: 2px dotted black;
+    float: left;
+    margin: 10px;
+}
+#perro{
+    border:2px dashed gold ;
+    float: right;
+    margin: 10px;
+}
+#Tx2{
+    clear: both;
+}
+
+
+/* Quizá para algunas actividades debas modificar estilos estilos según corresponda */
+.contenedor-actividades .act7 .imagen-gato{
+    float: left;
+}
+
+.contenedor-actividades .act7 .imagen-perros{
+    float: right;
+}
+
+.contenedor-actividades .act8-contenedor{
+    position: relative;
+}
+
+.contenedor-actividades .act8 .imagen-perros{
+    float: right;
+    position: absolute;
+    left: 10px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-gato{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 30px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act8 .imagen-pajaro{
+    float: left;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    border: 1px solid black;
+}
+
+.contenedor-actividades .act9 .act9-contenedor{
+    width: 500px;
+    border: 3px dotted gray;
+}
